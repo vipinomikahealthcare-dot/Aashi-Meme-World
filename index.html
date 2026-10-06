@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AASHI-MEME-WORLD ❤️</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffd6e7, #fff0f5);
+            background-image: url("web.jpg.jpeg");
+            color: #5a1833;
+            color: #5a1833;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: #e91e63;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .heart {
+            font-size: 50px;
+            margin: 15px;
+            animation: heartbeat 1.2s infinite;
+        }
+
+        @keyframes heartbeat {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .card h2 {
+            margin-top: 15px;
+            color: #e91e63;
+        }
+
+        footer {
+            padding: 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="heart">❤️</div>
+
+        <h1>AASHI-MEME-WORLD</h1>
+
+        <p>प्यार, यादें और खूबसूरत तस्वीरों की दुनिया 💕</p>
+    </header>
+
+    <section class="gallery">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80">
+            <h2>प्यार ❤️</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80">
+            <h2>खूबसूरत पल 💕</h2>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?auto=format&fit=crop&w=800&q=80">
+            <h2>हमेशा साथ 💖</h2>
+        </div>
+
+    </section>
+
+    <footer>
+        Made with ❤️ for AASHI-MEME-WORLD
+    </footer>
+
+</body>
+
+</html>
